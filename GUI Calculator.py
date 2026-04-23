@@ -43,7 +43,6 @@ label_result.grid(row=0, column=0, columnspan=4, pady=10)
 
 btn_style = {"width": 5, "height": 2, "font": ("Arial", 16, "bold"), "bd": 0}
 
-# Row 1
 Button(frame, text="⌫", bg="#2a2d36", fg="#fc7474",command=erase, **btn_style).grid(row=1, column=0, padx=5, pady=5)
 
 Button(frame, text="AC", bg="#2a2d36", fg="#fc7474", command=clear, **btn_style).grid(row=1, column=1, padx=5, pady=5)
